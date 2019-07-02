@@ -34,34 +34,46 @@ Resources:
         ManagedPolicyArns: '' # optional
         ProxyImage: '' # optional
         ProxyPort: '8000' # optional
-        ProxyEnvironment1Key: '' # optional
-        ProxyEnvironment1Value: '' # optional
-        ProxyEnvironment2Key: '' # optional
-        ProxyEnvironment2Value: '' # optional
-        ProxyEnvironment3Key: '' # optional
-        ProxyEnvironment3Value: '' # optional
+        ProxyEnvironment01: '' # optional
+        ProxyEnvironment02: '' # optional
+        ProxyEnvironment03: '' # optional
         AppImage: 'widdix/hello:v1' # optional
         AppPort: '80' # optional
-        AppEnvironment1Key: '' # optional
-        AppEnvironment1Value: '' # optional
-        AppEnvironment2Key: '' # optional
-        AppEnvironment2Value: '' # optional
-        AppEnvironment3Key: '' # optional
-        AppEnvironment3Value: '' # optional
-        AppEnvironment4Key: '' # optional
-        AppEnvironment4Value: '' # optional
-        AppEnvironment5Key: '' # optional
-        AppEnvironment5Value: '' # optional
-        AppEnvironment6Key: '' # optional
-        AppEnvironment6Value: '' # optional
+        AppEnvironment01: '' # optional
+        AppEnvironment02: '' # optional
+        AppEnvironment03: '' # optional
+        AppEnvironment04: '' # optional
+        AppEnvironment05: '' # optional
+        AppEnvironment06: '' # optional
+        AppEnvironment07: '' # optional
+        AppEnvironment08: '' # optional
+        AppEnvironment09: '' # optional
+        AppEnvironment10: '' # optional
+        AppEnvironment11: '' # optional
+        AppEnvironment12: '' # optional
+        AppEnvironment13: '' # optional
+        AppEnvironment14: '' # optional
+        AppEnvironment15: '' # optional
+        AppEnvironment16: '' # optional
+        AppEnvironment17: '' # optional
+        AppEnvironment18: '' # optional
+        AppEnvironment19: '' # optional
+        AppEnvironment20: '' # optional
+        AppEnvironment21: '' # optional
+        AppEnvironment22: '' # optional
+        AppEnvironment23: '' # optional
+        AppEnvironment24: '' # optional
+        AppEnvironment25: '' # optional
+        AppEnvironment26: '' # optional
+        AppEnvironment27: '' # optional
+        AppEnvironment28: '' # optional
+        AppEnvironment29: '' # optional
+        AppEnvironment30: '' # optional
         SidecarImage: '' # optional
         SidecarPort: '9000' # optional
-        SidecarEnvironment1Key: '' # optional
-        SidecarEnvironment1Value: '' # optional
-        SidecarEnvironment2Key: '' # optional
-        SidecarEnvironment2Value: '' # optional
-        SidecarEnvironment3Key: '' # optional
-        SidecarEnvironment3Value: '' # optional
+        SidecarEnvironment01: '' # optional
+        SidecarEnvironment02: '' # optional
+        SidecarEnvironment03: '' # optional
         Cpu: '0.25' # optional
         Memory: '0.5' # optional
         DesiredCount: '2' # optional
@@ -168,43 +180,22 @@ Resources:
       <td></td>
     </tr>
     <tr>
-      <td>ProxyEnvironment1Key</td>
-      <td>Environment variable 1 key for proxy container</td>
+      <td>ProxyEnvironment01</td>
+      <td>Environment variable 01 for proxy container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>ProxyEnvironment1Value</td>
-      <td>Environment variable 1 value for proxy container</td>
+      <td>ProxyEnvironment02</td>
+      <td>Environment variable 02 for proxy container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>ProxyEnvironment2Key</td>
-      <td>Environment variable 2 key for proxy container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ProxyEnvironment2Value</td>
-      <td>Environment variable 2 value for proxy container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ProxyEnvironment3Key</td>
-      <td>Environment variable 3 key for proxy container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ProxyEnvironment3Value</td>
-      <td>Environment variable 3 value for proxy container</td>
+      <td>ProxyEnvironment03</td>
+      <td>Environment variable 03 for proxy container</td>
       <td></td>
       <td>no</td>
       <td></td>
@@ -224,85 +215,211 @@ Resources:
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment1Key</td>
-      <td>Environment variable 1 key for app container</td>
+      <td>AppEnvironment01</td>
+      <td>Environment variable 01 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment1Value</td>
-      <td>Environment variable 1 value for app container</td>
+      <td>AppEnvironment02</td>
+      <td>Environment variable 02 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment2Key</td>
-      <td>Environment variable 2 key for app container</td>
+      <td>AppEnvironment03</td>
+      <td>Environment variable 03 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment2Value</td>
-      <td>Environment variable 2 value for app container</td>
+      <td>AppEnvironment04</td>
+      <td>Environment variable 04 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment3Key</td>
-      <td>Environment variable 3 key for app container</td>
+      <td>AppEnvironment05</td>
+      <td>Environment variable 05 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment3Value</td>
-      <td>Environment variable 3 value for app container</td>
+      <td>AppEnvironment06</td>
+      <td>Environment variable 06 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment4Key</td>
-      <td>Environment variable 4 key for app container</td>
+      <td>AppEnvironment07</td>
+      <td>Environment variable 07 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment4Value</td>
-      <td>Environment variable 4 value for app container</td>
+      <td>AppEnvironment08</td>
+      <td>Environment variable 08 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment5Key</td>
-      <td>Environment variable 5 key for app container</td>
+      <td>AppEnvironment09</td>
+      <td>Environment variable 09 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment5Value</td>
-      <td>Environment variable 5 value for app container</td>
+      <td>AppEnvironment10</td>
+      <td>Environment variable 10 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment6Key</td>
-      <td>Environment variable 6 key for app container</td>
+      <td>AppEnvironment11</td>
+      <td>Environment variable 11 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>AppEnvironment6Value</td>
-      <td>Environment variable 6 value for app container</td>
+      <td>AppEnvironment12</td>
+      <td>Environment variable 12 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment13</td>
+      <td>Environment variable 13 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment14</td>
+      <td>Environment variable 14 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment15</td>
+      <td>Environment variable 15 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment16</td>
+      <td>Environment variable 16 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment17</td>
+      <td>Environment variable 17 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment18</td>
+      <td>Environment variable 18 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment19</td>
+      <td>Environment variable 19 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment20</td>
+      <td>Environment variable 20 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment21</td>
+      <td>Environment variable 21 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment22</td>
+      <td>Environment variable 22 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment23</td>
+      <td>Environment variable 23 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment24</td>
+      <td>Environment variable 24 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment25</td>
+      <td>Environment variable 25 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment26</td>
+      <td>Environment variable 26 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment27</td>
+      <td>Environment variable 27 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment28</td>
+      <td>Environment variable 28 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment29</td>
+      <td>Environment variable 29 for app container</td>
+      <td></td>
+      <td>no</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AppEnvironment30</td>
+      <td>Environment variable 30 for app container</td>
       <td></td>
       <td>no</td>
       <td></td>
@@ -322,43 +439,22 @@ Resources:
       <td></td>
     </tr>
     <tr>
-      <td>SidecarEnvironment1Key</td>
-      <td>Environment variable 1 key for sidecar container</td>
+      <td>SidecarEnvironment01</td>
+      <td>Environment variable 01 for sidecar container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>SidecarEnvironment1Value</td>
-      <td>Environment variable 1 value for sidecar container</td>
+      <td>SidecarEnvironment02</td>
+      <td>Environment variable 02 for sidecar container</td>
       <td></td>
       <td>no</td>
       <td></td>
     </tr>
     <tr>
-      <td>SidecarEnvironment2Key</td>
-      <td>Environment variable 2 key for sidecar container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>SidecarEnvironment2Value</td>
-      <td>Environment variable 2 value for sidecar container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>SidecarEnvironment3Key</td>
-      <td>Environment variable 3 key for sidecar container</td>
-      <td></td>
-      <td>no</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>SidecarEnvironment3Value</td>
-      <td>Environment variable 3 value for sidecar container</td>
+      <td>SidecarEnvironment03</td>
+      <td>Environment variable 03 for sidecar container</td>
       <td></td>
       <td>no</td>
       <td></td>
